@@ -32,7 +32,8 @@ let welcome_message = "Welcome home, ${member}! Would you like dinner, or a bath
 //============= DO NOT ALTER ANYTHING BELOW =========================/
 
 client.on("ready", () => {
-  console.log("Robot Elyon initialized in server.");
+  console.log("Robot Elyon initialized in server!");
+  client.user.setGame('hard to get!');
 });
 
 client.on("message", (message) => {
