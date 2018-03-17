@@ -1,0 +1,24 @@
+{
+  "name": "robot-elyon",
+  "version": "1.0.1",
+  "description": "A personal yaoi-- I mean, discord bot!",
+  "main": "robotelyon.js",
+  "scripts": {
+    "start": "node robotelyon.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.9.0"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "moment": "^2.21.0",
+    "moment-timezone": "^0.5.14",
+    "express": "^4.16.3",
+    "node": "^9.8.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "ISC"
+}
